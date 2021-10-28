@@ -91,6 +91,7 @@ namespace MatchGame
             }
             else if (textBlok.Text == lastTextBlockClicked.Text)
             {
+                matchesFound++;
                 textBlok.Visibility = Visibility.Hidden;
                 findingMatch = false;
             }
